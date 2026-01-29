@@ -1,0 +1,13 @@
+{
+  "fixed": {
+    "womenShoe.html": "women-s-shoes-jk-fashion-empire.html",
+    "Jewel.html": "jewelry-men-and-women-jk-fashion-empire.html",
+    "Kaftan.html": "kaftan-collection-jk-fashion-empire.html"
+  },
+  "files_changed": [
+    "heels-women-shoes-jk-fashion-empire.html",
+    "jk-fashion-empire.html",
+    "traditional-wears-jk-fashion-empire.html"
+  ],
+  "missing_after": {}
+}

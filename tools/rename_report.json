@@ -1,0 +1,353 @@
+{
+  "renamed": [
+    {
+      "old": "agbada.html",
+      "new": "agbada-collection-index.html"
+    },
+    {
+      "old": "bags.html",
+      "new": "bags-men-and-women-index.html"
+    },
+    {
+      "old": "blouses.html",
+      "new": "blouses-women-traditional-index.html"
+    },
+    {
+      "old": "boots.html",
+      "new": "men-boots-shoes-index.html"
+    },
+    {
+      "old": "bootswomen.html",
+      "new": "boots-women-shoes-index.html"
+    },
+    {
+      "old": "brogues.html",
+      "new": "men-brogues-shoes-index.html"
+    },
+    {
+      "old": "button-up.html",
+      "new": "button-up-shirts-top-section-index.html"
+    },
+    {
+      "old": "camisoles.html",
+      "new": "camisoles-top-section-index.html"
+    },
+    {
+      "old": "cargo.html",
+      "new": "men-cargo-pants-pants-index.html"
+    },
+    {
+      "old": "casualstandard.html",
+      "new": "casual-standard-men-standard-wears-index.html"
+    },
+    {
+      "old": "casualwears.html",
+      "new": "casual-wears-index.html"
+    },
+    {
+      "old": "chinos.html",
+      "new": "men-chinos-pants-index.html"
+    },
+    {
+      "old": "combos.html",
+      "new": "combos-men-standard-wears-index.html"
+    },
+    {
+      "old": "contact.html",
+      "new": "contact-index.html"
+    },
+    {
+      "old": "croptops.html",
+      "new": "crop-tops-top-section-index.html"
+    },
+    {
+      "old": "flatswomen.html",
+      "new": "flats-women-shoes-index.html"
+    },
+    {
+      "old": "geleset.html",
+      "new": "gele-sets-index.html"
+    },
+    {
+      "old": "gifts.html",
+      "new": "gifts-and-packages-index.html"
+    },
+    {
+      "old": "gowns.html",
+      "new": "traditional-gowns-index.html"
+    },
+    {
+      "old": "heelswomen.html",
+      "new": "heels-women-shoes-index.html"
+    },
+    {
+      "old": "heritage.html",
+      "new": "heritage-collection-traditional-index.html"
+    },
+    {
+      "old": "index.html",
+      "new": "index.html"
+    },
+    {
+      "old": "iro-buba.html",
+      "new": "iro-and-buba-traditional-index.html"
+    },
+    {
+      "old": "jeans.html",
+      "new": "men-jeans-pants-index.html"
+    },
+    {
+      "old": "jewel.html",
+      "new": "jewelry-men-and-women-index.html"
+    },
+    {
+      "old": "joggers.html",
+      "new": "men-joggers-pants-index.html"
+    },
+    {
+      "old": "kaftan.html",
+      "new": "kaftan-collection-index.html"
+    },
+    {
+      "old": "loafers.html",
+      "new": "men-loafers-shoes-index.html"
+    },
+    {
+      "old": "maxi.html",
+      "new": "maxi-skirts-skirt-section-index.html"
+    },
+    {
+      "old": "maxidress.html",
+      "new": "maxi-dresses-women-index.html"
+    },
+    {
+      "old": "men.html",
+      "new": "men-s-collection-index.html"
+    },
+    {
+      "old": "midi.html",
+      "new": "midi-skirts-skirt-section-index.html"
+    },
+    {
+      "old": "mididress.html",
+      "new": "midi-dresses-women-index.html"
+    },
+    {
+      "old": "mini.html",
+      "new": "mini-skirts-skirt-section-index.html"
+    },
+    {
+      "old": "muleswomen.html",
+      "new": "mules-women-shoes-index.html"
+    },
+    {
+      "old": "office.html",
+      "new": "office-wear-men-standard-wears-index.html"
+    },
+    {
+      "old": "offshoulder.html",
+      "new": "off-shoulders-top-section-index.html"
+    },
+    {
+      "old": "pants.html",
+      "new": "trousers-and-jeans-index.html"
+    },
+    {
+      "old": "pencil.html",
+      "new": "pencil-skirts-skirt-section-index.html"
+    },
+    {
+      "old": "reviews.html",
+      "new": "customer-reviews-index.html"
+    },
+    {
+      "old": "ruffled.html",
+      "new": "ruffled-tops-top-section-index.html"
+    },
+    {
+      "old": "sandals.html",
+      "new": "men-sandals-shoes-index.html"
+    },
+    {
+      "old": "sandalswomen.html",
+      "new": "sandals-women-shoes-index.html"
+    },
+    {
+      "old": "senator.html",
+      "new": "men-s-senator-wears-index.html"
+    },
+    {
+      "old": "sets.html",
+      "new": "men-sets-standard-wears-index.html"
+    },
+    {
+      "old": "shiftdress.html",
+      "new": "women-shift-dress-index.html"
+    },
+    {
+      "old": "shirts.html",
+      "new": "men-shirts-casual-wear-index.html"
+    },
+    {
+      "old": "shoe.html",
+      "new": "men-s-shoes-index.html"
+    },
+    {
+      "old": "size-guide.html",
+      "new": "size-guide-index.html"
+    },
+    {
+      "old": "skirts.html",
+      "new": "women-s-skirts-index.html"
+    },
+    {
+      "old": "sneakers.html",
+      "new": "men-sneakers-shoes-index.html"
+    },
+    {
+      "old": "sneakerswomen.html",
+      "new": "sneakers-women-shoes-index.html"
+    },
+    {
+      "old": "standardwears.html",
+      "new": "standard-wears-index.html"
+    },
+    {
+      "old": "tees.html",
+      "new": "men-tees-v-neck-casual-index.html"
+    },
+    {
+      "old": "terms.html",
+      "new": "terms-index.html"
+    },
+    {
+      "old": "tiered.html",
+      "new": "tiered-tops-top-section-index.html"
+    },
+    {
+      "old": "top.html",
+      "new": "men-tops-casual-wear-index.html"
+    },
+    {
+      "old": "traditional.html",
+      "new": "traditional-wears-index.html"
+    },
+    {
+      "old": "traditionalwomen.html",
+      "new": "women-s-traditional-index.html"
+    },
+    {
+      "old": "women.html",
+      "new": "women-collection-index.html"
+    },
+    {
+      "old": "womendress.html",
+      "new": "women-s-dresses-index.html"
+    },
+    {
+      "old": "womenshoe.html",
+      "new": "women-s-shoes-index.html"
+    },
+    {
+      "old": "womentop.html",
+      "new": "women-s-tops-index.html"
+    },
+    {
+      "old": "wrap.html",
+      "new": "wrap-tops-top-section-index.html"
+    },
+    {
+      "old": "wrapdress.html",
+      "new": "wrap-dresses-women-index.html"
+    },
+    {
+      "old": "wrapperset.html",
+      "new": "men-s-wrapper-sets-index.html"
+    },
+    {
+      "old": "wrappersets.html",
+      "new": "wrapper-sets-traditional-index.html"
+    }
+  ],
+  "skipped": [],
+  "updated_files": [
+    "agbada-collection-index.html",
+    "bags-men-and-women-index.html",
+    "blouses-women-traditional-index.html",
+    "boots-women-shoes-index.html",
+    "button-up-shirts-top-section-index.html",
+    "camisoles-top-section-index.html",
+    "casual-standard-men-standard-wears-index.html",
+    "casual-wears-index.html",
+    "combos-men-standard-wears-index.html",
+    "crop-tops-top-section-index.html",
+    "customer-reviews-index.html",
+    "flats-women-shoes-index.html",
+    "gele-sets-index.html",
+    "gifts-and-packages-index.html",
+    "heels-women-shoes-index.html",
+    "heritage-collection-traditional-index.html",
+    "iro-and-buba-traditional-index.html",
+    "jewelry-men-and-women-index.html",
+    "index.html",
+    "kaftan-collection-index.html",
+    "maxi-dresses-women-index.html",
+    "maxi-skirts-skirt-section-index.html",
+    "men-boots-shoes-index.html",
+    "men-brogues-shoes-index.html",
+    "men-cargo-pants-pants-index.html",
+    "men-chinos-pants-index.html",
+    "men-jeans-pants-index.html",
+    "men-joggers-pants-index.html",
+    "men-loafers-shoes-index.html",
+    "men-s-collection-index.html",
+    "men-s-senator-wears-index.html",
+    "men-s-shoes-index.html",
+    "men-s-wrapper-sets-index.html",
+    "men-sandals-shoes-index.html",
+    "men-sets-standard-wears-index.html",
+    "men-shirts-casual-wear-index.html",
+    "men-sneakers-shoes-index.html",
+    "men-tees-v-neck-casual-index.html",
+    "men-tops-casual-wear-index.html",
+    "midi-dresses-women-index.html",
+    "midi-skirts-skirt-section-index.html",
+    "mini-skirts-skirt-section-index.html",
+    "mules-women-shoes-index.html",
+    "off-shoulders-top-section-index.html",
+    "office-wear-men-standard-wears-index.html",
+    "pencil-skirts-skirt-section-index.html",
+    "ruffled-tops-top-section-index.html",
+    "sandals-women-shoes-index.html",
+    "sneakers-women-shoes-index.html",
+    "standard-wears-index.html",
+    "tiered-tops-top-section-index.html",
+    "traditional-gowns-index.html",
+    "traditional-wears-index.html",
+    "trousers-and-jeans-index.html",
+    "women-collection-index.html",
+    "women-s-dresses-index.html",
+    "women-s-shoes-index.html",
+    "women-s-skirts-index.html",
+    "women-s-tops-index.html",
+    "women-s-traditional-index.html",
+    "women-shift-dress-index.html",
+    "wrap-dresses-women-index.html",
+    "wrap-tops-top-section-index.html",
+    "wrapper-sets-traditional-index.html"
+  ],
+  "links_updated": 1,
+  "links_collisions": [],
+  "missing_after": {
+    "womenShoe.html": [
+      "heels-women-shoes-index.html",
+      "heels-women-shoes-index.html"
+    ],
+    "Jewel.html": [
+      "index.html"
+    ],
+    "Kaftan.html": [
+      "traditional-wears-index.html"
+    ]
+  }
+}
