@@ -1,0 +1,151 @@
+/* css/reviews.css
+   Complete, laptop-friendly review page styles for white & brown brand
+*/
+
+:root{
+  --brand-brown: #6b3e26;
+  --brand-brown-dark: #4a2b1a;
+  --muted: #6c6c6c;
+  --bg: #ffffff;
+  --card-bg: #ffffff;
+  --card-border: rgba(107,62,38,0.06);
+  --radius: 12px;
+  --shadow: 0 12px 30px rgba(16,24,40,0.06);
+  --accent-grad: linear-gradient(90deg,#6b3e26,#4a2b1a);
+  --max-site-width: 1200px;
+  --transition: 180ms;
+}
+
+/* Global box-sizing and body */
+*,
+*::before,
+*::after { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; background: var(--bg); color: #111; -webkit-font-smoothing:antialiased; }
+
+/* Container */
+.reviews-section { background: var(--bg); padding: 2.5rem 0; width: 100%; overflow: hidden; }
+.reviews-section .container { max-width: var(--max-site-width); margin: 0 auto; padding: 0 1rem; }
+
+/* Header */
+.reviews-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  width: 100%;
+  padding-bottom: .75rem;
+  border-bottom: 1px solid var(--card-border);
+}
+@media (max-width: 720px) {
+  .reviews-header { flex-direction: column; align-items: flex-start; border-bottom: none; padding-bottom: 0; gap: .6rem; }
+}
+
+/* Rating summary */
+.rating-summary { display:flex; gap:1rem; align-items:center; min-width:0; }
+.avg-rating { font-size:2rem; font-weight:800; color:var(--brand-brown); line-height:1; }
+.stars { font-size:1.05rem; color:var(--brand-brown-dark); letter-spacing:1px; display:inline-block; }
+.rating-meta .meta { color:var(--muted); font-size:.95rem; margin-top:.15rem; }
+
+/* Header actions */
+.review-actions { display:flex; gap:.5rem; align-items:center; flex-shrink:0; }
+.review-actions .btn { border-radius:10px; padding:.45rem .7rem; font-weight:700; }
+.review-actions .btn-outline-primary { color:var(--brand-brown); border-color:var(--brand-brown); background:transparent; }
+.review-actions .form-select { min-width:160px; border-radius:8px; border:1px solid var(--card-border); }
+
+/* Rating breakdown */
+.rating-breakdown { margin-top:.75rem; display:flex; gap:.75rem; flex-wrap:wrap; }
+.breakdown-item { display:flex; align-items:center; gap:.75rem; width:100%; min-width:0; }
+@media (min-width:720px) { .breakdown-item { width:calc(33.333% - .5rem); } }
+.breakdown-item .label { width:64px; color:var(--muted); font-size:.9rem; flex:0 0 64px; }
+.breakdown-item .bar { flex:1 1 auto; height:10px; border-radius:8px; background:#f3f1ef; overflow:hidden; border:1px solid rgba(0,0,0,0.02); }
+.breakdown-item .bar-fill { height:100%; border-radius:8px; background:var(--accent-grad); transition: width var(--transition) ease; }
+.breakdown-item .count { width:40px; text-align:right; color:var(--muted); font-size:.9rem; flex:0 0 40px; }
+
+/* Reviews list */
+.reviews-list { margin-top:1rem; display:flex; flex-direction:column; gap:.9rem; width:100%; max-width:100%; overflow:visible; }
+
+/* Review card */
+.review-item {
+  border-radius: var(--radius);
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+  width: 100%;
+  max-width: 100%;
+}
+.review-item .card-body {
+  display:flex;
+  gap:1rem;
+  align-items:flex-start;
+  padding:1rem;
+  flex-wrap:wrap;
+  min-width:0;
+}
+
+/* Avatar */
+.review-avatar {
+  flex: 0 0 56px;
+  width:56px;
+  height:56px;
+  border-radius:50%;
+  background:#f7f5f3;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-weight:700;
+  color:var(--brand-brown-dark);
+  border:1px solid rgba(0,0,0,0.02);
+  overflow:hidden;
+}
+@media (max-width:991px) { .review-avatar { width:48px; height:48px; flex:0 0 48px; } }
+
+/* Content */
+.review-content { flex:1 1 auto; min-width:0; overflow-wrap:break-word; word-break:break-word; }
+.review-header { display:flex; align-items:start; justify-content:space-between; gap:.5rem; padding-bottom:.45rem; border-bottom:1px solid var(--card-border); margin-bottom:.6rem; }
+@media (max-width:991px) { .review-header { border-bottom:none; padding-bottom:0; margin-bottom:.35rem; } }
+
+.review-content h4 { margin:0 0 .25rem 0; font-size:1rem; font-weight:800; color:#111; }
+.review-content .small { color:var(--muted); font-size:.9rem; }
+.review-content p { margin:.5rem 0; color:var(--muted); font-size:.95rem; line-height:1.45; }
+
+/* Rating */
+.rating { font-size:1rem; color:var(--brand-brown); font-weight:800; letter-spacing:.6px; }
+
+/* Actions */
+.review-actions .btn-link { color:var(--muted); text-decoration:none; font-weight:600; padding:0; }
+.review-actions .btn-link:hover { color:var(--brand-brown-dark); text-decoration:underline; }
+
+/* Load more */
+.reviews-footer { margin-top:1rem; text-align:center; }
+#reviews-load-more { border-radius:10px; padding:.55rem 1rem; border:1px solid var(--card-border); background:transparent; color:var(--brand-brown-dark); font-weight:700; }
+
+/* Form */
+.write-review { margin-top:1.5rem; width:100%; }
+.review-form .form-control, .review-form .form-select { border-radius:8px; border:1px solid var(--card-border); padding:.5rem .6rem; background:#fff; }
+.review-form .form-control:focus, .review-form .form-select:focus { outline:3px solid rgba(107,62,38,0.12); outline-offset:2px; box-shadow:none; }
+.review-form button[type="submit"] { background:var(--brand-brown); color:#fff; border:0; padding:.6rem 1rem; border-radius:10px; font-weight:800; }
+.review-form button[type="reset"] { background:transparent; border:1px solid var(--card-border); padding:.5rem .9rem; border-radius:10px; color:var(--brand-brown-dark); font-weight:700; }
+
+/* Validation */
+.review-form .is-invalid { border-color:#d66b5f !important; box-shadow:0 6px 18px rgba(214,107,95,0.06); }
+
+/* Utility */
+.kicker { font-size:.85rem; color:var(--muted); font-weight:700; }
+.help-count { font-weight:700; color:var(--brand-brown-dark); }
+
+/* Prevent overflow */
+.reviews-section, .reviews-section * { max-width:100%; box-sizing:border-box; }
+
+/* Responsive tweaks */
+@media (max-width:1200px) { .reviews-section .container { max-width:100%; } }
+@media (max-width:720px) {
+  .reviews-header { flex-direction:column; align-items:flex-start; gap:.6rem; }
+  .review-content p { font-size:.92rem; }
+}
+
+/* Print */
+@media print {
+  .reviews-header, .review-actions, #reviews-load-more, .review-form button { display:none; }
+  .review-item { border:1px solid #ddd; box-shadow:none; }
+}
